@@ -5,6 +5,6 @@ interface IState {}
 
 export class HelloWorld extends React.Component<Props, IState> {
   render() {
-    return <div>Hello world from package!!!</div>;
+    return <div>Hello world from package!</div>;
   }
 }
