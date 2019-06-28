@@ -1,0 +1,27 @@
+{
+  "name": "example-react-components",
+  "version": "5.0.1",
+  "description": "use typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc && echo 'Finished building NPM package'"
+  },
+  "keywords": [],
+  "author": "jedrzejczak <jedrzejczak.andrzej89@gmail.com> (https://github.com/jedrzejczak)",
+  "license": "ISC",
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": "^16.0.0-0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.6",
+    "@types/react": "^16.8.22",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.5.2"
+  },
+  "files": [
+    "dist/"
+  ]
+}
