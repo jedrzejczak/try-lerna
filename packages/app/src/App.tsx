@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div>
       <HelloWorld />
-      Hello from app
+      Hello from appq
     </div>
   );
 };
